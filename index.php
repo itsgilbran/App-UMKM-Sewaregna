@@ -78,6 +78,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#map">Map</a></li>
+                    <li class="nav-item"><a class="nav-link" href="read_data.php">Data dan informasi</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                 </ul>
             </div>
@@ -232,7 +233,7 @@
     <script src="js/labels.js"></script>
     <script src="js/leaflet-measure.js"></script>
     <script src="js/leaflet-search.js"></script>
-    <script src="data/ADMINISTRASIKECAMATAN_AR_50K_1.js"></script>
+    <script src="data/ADMINISTRASIKECAMATAN_AR_50K_1.php"></script>
     <script>
         var map = L.map('map', {
             zoomControl: true,
