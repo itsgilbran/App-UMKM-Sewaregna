@@ -50,6 +50,15 @@
             position: relative;
             height: 100%;
         }
+
+        .masthead {
+            height: 100vh;
+            min-height: 500px;
+            background-image: url('assets/header.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     </style>
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -75,9 +84,9 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
-        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-            <div class="d-flex justify-content-center">
+    <header class="masthead" style="background-image: url('assets/header.jpeg')">
+        <div class=" container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class=" d-flex justify-content-center">
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">KOTA MANADO</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Torang samua basudara.</h2>
